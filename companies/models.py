@@ -1,0 +1,11 @@
+from django.conf import settings
+from django.db import models
+
+
+class Company(models.Model):
+    "Generated Model"
+    name = models.TextField()
+    owner = models.TextField()
+
+
+# Create your models here.
